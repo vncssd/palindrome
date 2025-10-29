@@ -15,10 +15,10 @@ public class Program {
         String reversedString = stringBuilder.reverse().toString();
 
         if (word.equals(reversedString)){
-            System.out.print("THE WORD " +  "'" + word + "'" +" IS A PALINDROME!");
+            System.out.print("THE WORD " +  "'" + word + "'" +" IS A PALINDROME!!");
         }
         else {
-            System.out.print("THE WORD " +  "'" + word + "'" + " IS NOT A PALINDROME!");
+            System.out.print("THE WORD " +  "'" + word + "'" + " IS NOT A PALINDROME!!");
         }
 
     }
